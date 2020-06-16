@@ -53,7 +53,7 @@ public class Product {
 
 
 	public String toString() {
-		return "Produto: " + productName+ " total: " + totalSum();
+		return "Produto: " + productName+ " Total: " + totalSum();
 	}
 	
 }

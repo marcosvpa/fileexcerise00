@@ -20,9 +20,10 @@ public class Program {
 			if (!getProduct.equals("quit")) {
 				String[] getInfo = getProduct.split(",");
 				Product productInfos = new Product(getInfo[0],Double.parseDouble(getInfo[1]),Integer.parseInt(getInfo[2]));
-			System.out.println(productInfos);
 			}
 		}
+		
+		
 		
 		
 		
